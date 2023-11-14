@@ -1,0 +1,74 @@
+body{
+    background-color: green;
+}
+#auto{
+    color: white;
+    text-align: center;
+}
+p{
+    color: black;
+}
+img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+table{
+    clear:both;
+    float: none ; 
+}
+table , td{
+    border: 1px black solid;
+    border-collapse: collapse;
+    background-color: white;
+}
+#elso{
+    background-image: url('smiley2.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+ul{
+    list-style-image:url('smiley2.png');
+    list-style-position: inside;
+}
+ol{
+    list-style-type:none ;
+}
+div{
+    border: gray 1px solid;
+    margin-left: 50px  ;
+    margin-right: 50px;
+    background-color: white;
+    padding: 30px 0px;
+}
+div p{
+    text-align: justify;
+    text-indent: 50px;
+}
+a{
+    text-decoration:none ;
+}
+h2{
+    text-decoration:  underline;
+}
+p{
+    font-weight: bold;
+}
+h4{
+    font-style: italic;
+    font-style: oblique;
+}
+#parizs{
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+}
+#kep{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: green;
+    border: 0px;
+}
